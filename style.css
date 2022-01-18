@@ -82,26 +82,20 @@ h4 {
 #mission-section .mission-boxs{
     margin-top: 50px;
 }
-.mission-box__one {
+.mission-box__one, .mission-box__two, .mission-box__three {
     width: 33.33%;
     padding: 30px;
-    background-color: #EDF5F6;
     border-radius: 10px;
     margin: 0 30px 0 0;
+}
+.mission-box__one {
+    background-color: #EDF5F6;
 }
 .mission-box__two {
-    width: 33.33%;
-    padding: 30px;
     background-color: #FFEEEE;
-    border-radius: 10px;
-    margin: 0 30px 0 0;
 }
 .mission-box__three {
-    width: 33.33%;
-    padding: 30px;
     background-color: #FFF4D6;
-    border-radius: 10px;
-    margin: 0 30px 0 0;
 }
 /* Develop Section, Community Section &  Contact Section*/
 #develop-section .develop-sec__left, #community-section .community-sec__right
